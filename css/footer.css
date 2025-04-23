@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+}
+.footer div{
+  margin: 0 20px ;
+}
+.footer-left{
+  display: flex;
+}
+.footer-left span{
+  margin: 0 5px;
+}
+
+/*MOVIL GRANDE*/
+@media (max-width: 425px) {
+
+}
