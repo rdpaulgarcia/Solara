@@ -1,0 +1,30 @@
+.about{}
+.about  h2{ 
+    color: black;
+}
+.about  h3{ 
+    color: black;
+}
+.box-content{}
+
+.about li{
+    color: black;
+}
+.box-content-left{}
+.box-content-left p{
+    color: black;
+}
+
+
+
+
+
+
+@media (max-width: 1100px) {
+}
+@media (max-width: 600px) {
+
+}
+@media (max-width: 600px) {
+
+}
