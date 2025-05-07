@@ -3,3 +3,27 @@
 .banner img{
     max-width: 100%;
 }
+.banner-img {
+    width: 100%;
+    height: 500px; /* o lo que necesites */
+    overflow: hidden;
+  }
+  
+  .parallax {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/hands.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+  @media (max-width: 600px) {
+    .parallax {
+        background-image: url("../assets/img/1295442.jpg");
+    }
+  }
