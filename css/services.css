@@ -70,8 +70,7 @@
   border-radius: 5px;
   overflow: hidden;
   padding: 10px;
-  box-shadow: 0px 0px 20px rgba(141, 213, 242, .7);
-  border: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
 .service_card img{
   max-width: 100%;
@@ -87,8 +86,7 @@
   color: black;
 }
 .service_card:hover{
-  border: #8dd5f2 solid 2px;
-  box-shadow: none;
+  box-shadow: 0px 0px 20px #032973;
 }
 
 

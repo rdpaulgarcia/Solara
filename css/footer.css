@@ -7,12 +7,15 @@
 }
 .footer div{
   margin: 0 20px ;
+  color: white;
 }
 .footer-left{
   display: flex;
+  color: white;
 }
-.footer-left span{
+.footer span{
   margin: 0 5px;
+  color: white;
 }
 
 /*MOVIL GRANDE*/
