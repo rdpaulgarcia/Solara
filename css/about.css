@@ -3,21 +3,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    padding: 100px 0;
+    background-image: url(../assets/img/hands.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about::before{
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
 }
 .about h2{ 
-    color: #032973;
+    color: black;
     margin: 10px;
     text-align: center;
 }
 .box-content{
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box-content-right{
-    margin: 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    width: 90%;
 }
 .box-content-right ul{
     display: flex;
@@ -26,25 +48,37 @@
     align-items: center;
 }
 .box-content-right ul li{
-    color: #032973;
+    color: black;
     width: 200px;
     text-align: center;
-    margin: 5px 0 15px 0;
+    margin: 5px 15px 15px 15px;
+    position: relative;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 10px;
+}
+.box-content-right ul li img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 5px;
 }
 .box-content-left{
-    margin: 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin-bottom: 80px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
 }
 .box-content-left p{
-    color: #032973;
+    color: black;
     text-align: center;
+    position: relative;
 }
-
-
-
-
 
 
 @media (max-width: 1100px) {

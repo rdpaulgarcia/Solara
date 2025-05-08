@@ -26,7 +26,7 @@
 .services_title {
   text-transform: capitalize;
   font-size: 45px;
-  color: #032973;
+  color: black;
   margin: 10px;
   text-align: center;
 }
@@ -51,7 +51,7 @@
   flex-direction: column;
 }
 .service-botton h2{
-  color: #032973;
+  color: black;
   margin: 0 0 10px 0;
 }
 .services_BoxCards{

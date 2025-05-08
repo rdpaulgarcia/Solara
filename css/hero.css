@@ -58,9 +58,11 @@
   margin: 10px;
   line-height: 65px;
   text-align: center;
+  color: white;
 }
 .hero_text {
   margin: 10px;
+  color: white;
 }
 .button--hero {
   width: 220px;
