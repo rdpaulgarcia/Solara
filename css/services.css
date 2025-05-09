@@ -26,7 +26,7 @@
 .services_title {
   text-transform: capitalize;
   font-size: 45px;
-  color: black;
+  color: #032973;
   margin: 10px;
   text-align: center;
 }
@@ -51,7 +51,7 @@
   flex-direction: column;
 }
 .service-botton h2{
-  color: black;
+  color: #032973;
   margin: 0 0 10px 0;
 }
 .services_BoxCards{
@@ -123,9 +123,14 @@
     flex-wrap: wrap;
   }
   .services_img {
-    width: 350px;
+    width: 90vw;
   }
   .services_content {
     width: 350px;
   }
+  .service_card{
+    width: 90vw;
+    height: 420px;
+  }
+
 }
